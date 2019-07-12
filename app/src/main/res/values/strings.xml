@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProgettoIUM</string>
+    <string name="app_name">AllianzIUM</string>
     <string name="title_activity_profilo">Profilo</string>
     <string name="title_activity_contatti">Contatti</string>
     <string name="title_activity_le_mie_polizze">LeMiePolizze</string>

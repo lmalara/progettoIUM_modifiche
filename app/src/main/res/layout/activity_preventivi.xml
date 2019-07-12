@@ -37,12 +37,12 @@
 
             <TextView
                 android:id="@+id/preventivo1"
-                android:layout_width="365dp"
+                android:layout_width="330dp"
                 android:layout_height="match_parent"
                 android:drawableRight="@drawable/fiat"
-                android:text="\nNr. 1:        Fiat 500X\nTarga:      FR852LP \n"
+                android:text="\nNr. 1:      Fiat 500X\nTarga:    FR852LP\n"
                 android:textColor="@android:color/black"
-                android:textSize="23dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <View
@@ -52,12 +52,12 @@
 
             <TextView
                 android:id="@+id/preventivo2"
-                android:layout_width="365dp"
+                android:layout_width="330dp"
                 android:layout_height="match_parent"
                 android:drawableRight="@drawable/alfa"
-                android:text="\nNr. 2:        Alfa Mito\nTarga:      DR829AS \n"
+                android:text="\nNr. 2:      Alfa Mito\nTarga:    DR829AS\n"
                 android:textColor="@android:color/black"
-                android:textSize="23dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <View
@@ -67,12 +67,12 @@
 
             <TextView
                 android:id="@+id/preventivo3"
-                android:layout_width="365dp"
+                android:layout_width="330dp"
                 android:layout_height="match_parent"
                 android:drawableRight="@drawable/volk"
-                android:text="\nNr. 3:        Volkswagen Golf\nTarga:      CT936TV\n"
+                android:text="\nNr. 3:      Volkswagen Golf\nTarga:    CT936TV\n"
                 android:textColor="@android:color/black"
-                android:textSize="23dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <View
@@ -80,21 +80,19 @@
                 android:layout_height="2dp"
                 android:background="@android:color/darker_gray"/>
 
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|end"
-                android:layout_margin="@dimen/fab_margin"
-                app:srcCompat="@android:drawable/ic_input_add"
-                android:tint="@android:color/white"
-                app:backgroundTint="#807080"
-                app:fabSize="auto"
-                />
-
-
         </LinearLayout>
     </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:tint="@android:color/white"
+        app:backgroundTint="#0c2c52"
+        app:fabSize="auto"
+        />
 
 
 </android.support.design.widget.CoordinatorLayout>
