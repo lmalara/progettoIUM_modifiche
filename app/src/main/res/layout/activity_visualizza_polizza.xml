@@ -42,6 +42,7 @@
                 android:text=""
                 android:id="@+id/statoPolizza"
                 android:textSize="23dp"
+                android:background="#e2e1dd"
                 android:gravity="center_horizontal"
                 android:textStyle="bold"/>
 
@@ -91,9 +92,10 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/holo_green_light"
+                android:background="#0c2c52"
                 android:text="PAGA ORA"
                 android:textSize="24dp"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:visibility="gone"
                 android:id="@+id/pagaOra"
@@ -107,7 +109,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_blue_light"
-                android:text="Contratto di polizza"
+                android:text="Scarica la polizza"
                 android:drawableLeft="@drawable/baseline_vertical_align_bottom_black_36dp"
                 android:textSize="24dp"
                 android:textStyle="bold"

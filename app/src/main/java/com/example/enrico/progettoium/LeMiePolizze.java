@@ -49,7 +49,7 @@ public class LeMiePolizze extends AppCompatActivity {
 
 
         p1.setAnnoScadenza(2019);
-        p1.setMeseScadenza(5);
+        p1.setMeseScadenza(11);
         p1.setAttiva(true);
         p1.setInScadenza(false);
 
@@ -59,7 +59,7 @@ public class LeMiePolizze extends AppCompatActivity {
         p2.setInScadenza(false);
 
         p3.setAnnoScadenza(2019);
-        p3.setMeseScadenza(2);
+        p3.setMeseScadenza(07);
         p3.setAttiva(true);
         p3.setInScadenza(true);
 

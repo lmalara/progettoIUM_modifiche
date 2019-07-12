@@ -35,16 +35,15 @@
                 app:title="Il mio profilo" />
 
 
-
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="\nNr. 1:        Fiat 500X\nTarga:      FR852LP \n"
-                android:textSize="23dp"
-                android:textStyle="bold"
-                android:textColor="@android:color/black"
                 android:id="@+id/preventivo1"
-                />
+                android:layout_width="365dp"
+                android:layout_height="match_parent"
+                android:drawableRight="@drawable/fiat"
+                android:text="\nNr. 1:        Fiat 500X\nTarga:      FR852LP \n"
+                android:textColor="@android:color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
@@ -52,14 +51,14 @@
                 android:background="@android:color/darker_gray"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="\nNr. 2:        Alfa Mito\nTarga:      DR829AS \n"
-                android:textSize="23dp"
-                android:textStyle="bold"
-                android:textColor="@android:color/black"
                 android:id="@+id/preventivo2"
-                />
+                android:layout_width="365dp"
+                android:layout_height="match_parent"
+                android:drawableRight="@drawable/alfa"
+                android:text="\nNr. 2:        Alfa Mito\nTarga:      DR829AS \n"
+                android:textColor="@android:color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
@@ -67,14 +66,14 @@
                 android:background="@android:color/darker_gray"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="\nNr. 3:        Volkswagen Golf\nTarga:      CT936TV\n"
-                android:textSize="23dp"
-                android:textStyle="bold"
-                android:textColor="@android:color/black"
                 android:id="@+id/preventivo3"
-                />
+                android:layout_width="365dp"
+                android:layout_height="match_parent"
+                android:drawableRight="@drawable/volk"
+                android:text="\nNr. 3:        Volkswagen Golf\nTarga:      CT936TV\n"
+                android:textColor="@android:color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
@@ -88,6 +87,7 @@
                 android:layout_gravity="bottom|end"
                 android:layout_margin="@dimen/fab_margin"
                 app:srcCompat="@android:drawable/ic_input_add"
+                android:tint="@android:color/white"
                 app:backgroundTint="#807080"
                 app:fabSize="auto"
                 />

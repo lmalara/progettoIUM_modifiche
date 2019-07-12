@@ -74,7 +74,7 @@ public class VisualizzaPolizza extends AppCompatActivity {
         if(polizza.isInScadenza()==true){
             statoPolizza.setText("POLIZZA IN SCADENZA");
             //colore giallo
-            statoPolizza.setTextColor(Color.rgb(255,215,0));
+            statoPolizza.setTextColor(Color.parseColor("#e5b91e"));
             pagaOra.setVisibility(View.VISIBLE);
         }
         if(polizza.isAttiva()==false){
