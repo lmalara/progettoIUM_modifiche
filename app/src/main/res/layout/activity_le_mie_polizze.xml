@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contatti"
+    android:padding="@dimen/padding_12"
+    android:background="@android:color/white">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#84A8C4"
+                android:navigationIcon="@drawable/ic_stat_name"
+                app:title="Le mie polizze" />
+
+            <TextView
+                android:id="@+id/modello_v1"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="61dp"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="90dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/modello_v2"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="180dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/modello_v3"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="277dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/vedi2"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="167dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginRight="76dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableLeft="@drawable/baseline_info_black_36dp" />
+
+            <Button
+                android:id="@+id/modifica3"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="262dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableLeft="@drawable/baseline_edit_black_36dp" />
+
+            <Button
+                android:id="@+id/modifica2"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="167dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableLeft="@drawable/baseline_edit_black_36dp" />
+
+            <Button
+
+                android:id="@+id/modifica1"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="74dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableLeft="@drawable/baseline_edit_black_36dp" />
+
+            <Button
+                android:id="@+id/vedi1"
+
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginRight="76dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableLeft="@drawable/baseline_info_black_36dp" />
+
+            <Button
+                android:id="@+id/vedi3"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="261dp"
+                android:layout_marginEnd="75dp"
+                android:layout_marginRight="75dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableLeft="@drawable/baseline_info_black_36dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="83dp"
+                app:srcCompat="@drawable/toyota" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="173dp"
+                app:srcCompat="@drawable/fiat" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="267dp"
+                app:srcCompat="@drawable/lancia" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

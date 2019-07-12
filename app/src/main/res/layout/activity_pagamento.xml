@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contatti"
+    android:padding="@dimen/padding_12"
+    android:background="@android:color/white">
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="303dp"
+        android:background="@android:color/darker_gray" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#84A8C4"
+                android:navigationIcon="@drawable/ic_stat_name"
+                app:title="Pagamento" />
+
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="382dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/modVeicolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="108dp"
+                android:text="Modello Veicolo" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/modVeicolo"
+                android:layout_alignLeft="@+id/modVeicolo"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="131dp"
+                android:text="Targa: " />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="155dp"
+                android:text="Lista Accessori: " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/modVeicolo"
+                android:layout_alignLeft="@+id/modVeicolo"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="204dp"
+                android:text="TOTALE € " />
+
+            <Button
+                android:id="@+id/paga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/modVeicolo"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#99ccff"
+                android:text="PAGA  LA  POLIZZA"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/modelloVeicolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/modVeicolo"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="149dp"
+                android:layout_marginLeft="149dp"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/targaVeicolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="127dp"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listaAccessori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/targaVeicolo"
+                android:layout_alignLeft="@+id/targaVeicolo"
+                android:layout_alignBottom="@+id/targaVeicolo"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="-27dp"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prezzoDaPagare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/targaVeicolo"
+                android:layout_alignLeft="@+id/targaVeicolo"
+                android:layout_alignTop="@+id/targaVeicolo"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="77dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="247dp"
+                android:text="Inserisci i dati della carta"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="237dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/modVeicolo"
+                android:layout_alignLeft="@+id/modVeicolo"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="280dp"
+                android:text="Carta" />
+
+            <EditText
+                android:id="@+id/nr_carta"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView14"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-13dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginRight="115dp"
+                android:ems="10"
+                android:hint="xxxx xxxx xxxx xxxx"
+                android:inputType="number"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nr_carta"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_alignLeft="@+id/textView14"
+                android:layout_marginStart="-1dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="11dp"
+                android:text="Scadenza" />
+
+            <EditText
+                android:id="@+id/meseScadenzaCarta"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView14"
+                android:layout_marginStart="-25dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/modVeicolo"
+                android:layout_toRightOf="@+id/modVeicolo"
+                android:ems="10"
+                android:hint="mm"
+                android:inputType="number"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/modelloVeicolo"
+                android:layout_alignLeft="@+id/modelloVeicolo"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="2dp"
+                android:text="/" />
+
+            <EditText
+                android:id="@+id/annoScadenzaCarta"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView16"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-14dp"
+                android:layout_marginEnd="117dp"
+                android:layout_marginRight="117dp"
+                android:ems="10"
+                android:hint="yyyy"
+                android:inputType="number"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/meseScadenzaCarta"
+                android:layout_alignEnd="@+id/textView15"
+                android:layout_alignRight="@+id/textView15"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginRight="-1dp"
+                android:text="CCV" />
+
+            <EditText
+                android:id="@+id/codiceCCV"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView15"
+                android:layout_alignStart="@+id/meseScadenzaCarta"
+                android:layout_alignLeft="@+id/meseScadenzaCarta"
+                android:layout_marginStart="-2dp"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="1dp"
+                android:ems="10"
+                android:hint="xxx"
+                android:inputType="number"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:text="Prossimo rinnovo:" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="152dp"
+                android:layout_marginLeft="152dp"
+                android:layout_marginTop="180dp"
+                android:text="29/05/2020" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="72dp"
+                android:text="Riepilogo Dati"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/accettazioneContratto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="400dp"
+                android:text="Il sottoscritto contraente, dichiara di aver preso visione delle clausole indicate nel foglio illustrativo disponibile al link:\nwww.allianz.it/clausole_polizze" />
+
+            <TextView
+                android:id="@+id/avvenutoPagamento"
+                android:layout_width="337dp"
+                android:layout_height="91dp"
+                android:layout_alignEnd="@+id/textView14"
+                android:layout_alignRight="@+id/textView14"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-275dp"
+                android:layout_marginRight="-275dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_horizontal"
+                android:text="TextView"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_conferma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="147dp"
+                android:layout_marginLeft="147dp"
+                android:layout_marginTop="387dp"
+                app:srcCompat="@drawable/ok_check" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

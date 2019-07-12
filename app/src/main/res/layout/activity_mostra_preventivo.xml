@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MostraPreventivo"
+    android:padding="@dimen/padding_12"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#84A8C4"
+                android:navigationIcon="@drawable/ic_stat_name"
+                app:title="Il mio profilo" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Dati Veicolo"
+                android:textSize="22dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/datiVeicoloMostraPreventivo"
+                android:text="Targa ... "
+                android:textSize="22dp"
+                android:textColor="@android:color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prezzoPreventivo"
+                android:text="Targa ... "
+                android:textStyle="bold"
+                android:textSize="19dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACCETTA PREVENTIVO"
+                android:id="@+id/accettaPreventivo"
+                android:background="#10aaff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:drawableLeft="@drawable/baseline_done_outline_black_36dp"
+
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/rifiutaPreventivo"
+                android:layout_height="wrap_content"
+                android:text="ELIMINA PREVENTIVO"
+                android:drawableLeft="@drawable/baseline_delete_black_36dp"
+                android:background="#99ccff"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

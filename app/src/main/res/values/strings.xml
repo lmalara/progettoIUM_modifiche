@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProgettoIUM</string>
+    <string name="title_activity_profilo">Profilo</string>
+    <string name="title_activity_contatti">Contatti</string>
+    <string name="title_activity_le_mie_polizze">LeMiePolizze</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_visualizza_polizza">VisualizzaPolizza</string>
+    <string name="title_activity_modifica_polizza">ModificaPolizza</string>
+    <string name="title_activity_preventivi">Preventivi</string>
+</resources>
